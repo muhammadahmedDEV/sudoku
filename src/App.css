@@ -14,7 +14,8 @@
 }
 
 .App-header {
-  background-color: #282c34;
+  background-color: #fff;
+  /* padding:2rem; */
   min-height: 100vh;
   display: flex;
   flex-direction: column;
@@ -26,6 +27,30 @@
 
 .App-link {
   color: #61dafb;
+}
+
+.cell {
+  width: 50px;
+  height: 50px;
+  border: 1px solid black;
+  font-size: 20px;
+  text-align: center;
+}
+
+table {
+  border-collapse: collapse;
+  border: 3px solid bisque;
+  background-color: bisque;
+}
+
+td{
+  padding: 0px;
+}
+.heading{
+  color: #000;
+}
+.buttonContainer {
+margin: 0px 0px 30px 0px;
 }
 
 @keyframes App-logo-spin {

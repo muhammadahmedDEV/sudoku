@@ -1,0 +1,22 @@
+.container {
+margin-top: 5px;
+width: 510px;
+display: flex; 
+justify-content: space-between;
+align-items: center;
+}
+.labelDesign{
+    background-color: #fff;
+    border: none;
+    padding: 0px;
+    font-size: 15px;
+    cursor: pointer;
+}
+.clrBlack{
+    color: #000;
+    font-weight:bold
+}
+.outerDiv{
+    text-align: left;
+    width: 510px;
+}
